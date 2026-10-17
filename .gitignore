@@ -1,0 +1,6 @@
+node_modules/
+.env
+.DS_Storenpm-debug.log*
+coverage/
+.idea/
+.vscode/

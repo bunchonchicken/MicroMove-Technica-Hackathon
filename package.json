@@ -1,0 +1,28 @@
+{
+  "name": "micromove-nessie",
+  "version": "1.0.0",
+  "description": "A Nessie sandbox app that estimates safe microsavings and recommends a savings priority.",
+  "main": "server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test",
+    "check": "node --check server.js && node --check lib/plan.js && node --check public/app.js"
+  },
+  "keywords": [
+    "personal-finance",
+    "microsavings",
+    "nessie-api",
+    "financial-literacy",
+    "hackathon"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
